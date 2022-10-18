@@ -1,0 +1,103 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.up-textDe{
+	background-color: rgba(234,242,248 .5);
+}
+
+#MarkSheetPrint{
+	background:rgba(235,216,210,255);
+	border: 5px solid black;
+
+}
+
+.table-tr-td {
+  border:1px solid black;
+  text-align: center;
+  font-size: 12px;
+}
+.table-mark-de{
+	  table-layout: auto;
+  	  width: 100%;
+}
+.table-final-grade{
+	table-layout: auto;
+    width: 100%;
+}
+.final-gr-ta{
+	text-align: center;
+	  border:1px solid black;
+}
+.img-siz{
+	width: 100px;
+	height: 120px;
+
+}
+.table-final-grade{
+	
+	font-size: 15px;
+}
+.bor-botom{
+border-bottom: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
+.bor-top{
+border-top: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+hr{
+	margin: 0;
+	height: 1px;
+  background-color: black;
+  border: none;
+}
+
+span{
+	color: #88677a;
+	font-family: 'Inspiration', cursive;
+}
+#MarkSheetPrint{
+	margin: 5%;
+	overflow-x: hidden;
+}
+/* #MarkSheetPrint{
+	display: none;
+} */
+
+ .txt-dsign{
+  font-family: 'Great Vibes', cursive;
+}
+
+/* #ClaMarks{
+		display: none;
+	} */
+
+.p-footer-de{
+	font-size:15px;
+	font-family: 'Inspiration', cursive;
+}
+
+.p-footer{
+	font-size:15px ;
+}
+
+
+/*for print option*/
+@media print {
+	#ClaMarks{
+		display: none;
+	}
+
+	#MarkSheetPrint{
+		margin: 0;
+		display: block;
+}
+.table-final-grade{
+	font-size: 12px;
+}
+}
